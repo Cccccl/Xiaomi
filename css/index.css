@@ -1,0 +1,289 @@
+
+    body{margin:0;padding: 0;font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;}
+    .xiaomiTop{background-color: #333;}
+    .xiaomiTop .container{width: 1220px;margin:0 auto;overflow: hidden;}
+    .xiaomiTop .container .left{display: inline;float: left;}
+    .xiaomiTop .container .right {display: inline;float: right;}
+    .xiaomiTop .container ul{list-style: none;overflow: hidden;margin: 0;padding: 0;}
+    .xiaomiTop .container ul li{float: left;}
+    .xiaomiTop .container ul li a{color: #b0b0b0;text-decoration: none;font-size: 12px;line-height: 40px;margin-left: 5px;margin-right:5px;font-weight: 300;}
+    .xiaomiTop .container ul li a:hover{color: white;}
+    .xiaomiTop .container .xiaomiCart{display: inline;float: right;margin-left: 35px;}
+    .xiaomiTop .container .xiaomiCart a{color: #b0b0b0;text-decoration: none;font-size: 12px;line-height: 40px;padding:0 20px 0 20px;}
+    .xiaomiTop .container .xiaomiCart:hover{background-color: white;}
+    .xiaomiTop .container .xiaomiCart a:hover{color: #ff6700;}
+
+    .xiaomiHeader{margin: 25px 0 25px 0;}
+    .xiaomiHeader .container{width: 1220px;margin: 0 auto;overflow: hidden;}
+    .xiaomiHeader .HeaderLogo{background-color: #ff6700;display: inline-block;float: left;}
+    .xiaomiHeader .HeaderLogo a img{width: 55px;height: 55px;}
+
+
+    .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+   .navBar{display: inline;float: left;padding-left: 130px;}
+   .navBar .nav{list-style: none;margin: 0;}
+   .navBar .nav li{float: left;padding: 0 10px 0 10px;}
+   .navBar .nav li p a:hover{color: #ff6700;}
+   .navBar .nav a{text-decoration: none;color: #333;}
+   .sub{list-style: none;display:none;position: absolute;padding: 0px;width: 100%;left: 0%;top:149px;border:1px solid #b0b0b0;height: 229px;z-index: 1995;background-color: white;}
+   .sub li{float: left;text-align: center;font-size: 12px;}
+   .sub li span{color: #ff6700;}
+   .sub li:first-child{margin-left: 15%;}
+   .sub li img{width: 160px;height: 110px;padding-top: 50px;}
+   .xiaomiHeader .HeaderSearch{display: inline;float: right;width: 296px;}
+   .xiaomiHeader .HeaderSearch .search_text{width: 223px;height: 48px;border:1px solid #e0e0e0;margin-left: 18px;}
+   .xiaomiHeader .HeaderSearch .search_btn{width: 52px;height: 48px;background: url(img/搜索-搜索.png);background-size: 30px 30px;background-repeat: no-repeat;background-position: center;}
+   .xiaomiHeader .HeaderSearch .search_btn:hover{background-color: #ff6700;}
+   .xiaomiHeader .HeaderSearch .keyword-list{position: absolute;z-index: 1995;border: 1px solid #ff6700;width: 221px;margin-left: 18px;}
+   .xiaomiHeader .HeaderSearch .keyword-list ul{list-style: none;padding: 0px;}
+   .xiaomiHeader .HeaderSearch .keyword-list ul li a{text-decoration: none;color: #333;font-size: 12px;}
+   .xiaomiHeader .HeaderSearch .keyword-list ul li .keyword{line-height: 30px;padding-left: 10px;}
+   .xiaomiHeader .HeaderSearch .keyword-list ul li .result{float: right;padding-right: 20px;padding-top: 5px;color: #b0b0b0;}
+   .xiaomiHeader .HeaderSearch .search-hot-words span{color: #b0b0b0;font-size: 12px;background-color: #e0e0e0;margin-left: 2px;padding: 2px 3px;}
+   .xiaomiHeader .HeaderSearch .search-hot-words span:hover{color: white;background-color: #ff6700;}
+
+   .xiaomiSection_1 .container{width: 1220px;margin: 0 auto;overflow: hidden;}
+   .xiaomiSection_1 #nav{list-style: none;margin: 0;padding:0;background-color:transparent;padding: 25px 0 25px 0;position: relative;background-color: #333;opacity: 0.7;}
+   .xiaomiSection_1 #nav p{margin: 0;padding:0;}
+   .xiaomiSection_1 #nav a{text-decoration: none;color: white;line-height: 42px;font-size: 14px;padding-left: 20px;}
+   .xiaomiSection_1 #nav a span{color: #333;}
+   .xiaomiSection_1 #nav a span:hover{color:#ff6700;}
+   .xiaomiSection_1 #nav .mainCate{width: 234px;}
+   .xiaomiSection_1 #nav .mainCate:hover{background-color: #ff6700;}
+   .xiaomiSection_1 #nav .subCate{position: absolute;float: left;margin-left: 234px;top:0;background-color: white;padding: 25px 0 25px 0;background-color: white;}
+   .xiaomiSection_1 #nav .subCate ul{float: left;}
+   .xiaomiSection_1 #nav .subCate ul li{width: 265px;height: 76px;position: relative;}
+   .xiaomiSection_1 #nav .subCate ul li div{display: inline;}
+   .xiaomiSection_1 #nav .subCate ul li .title{display: inline;position: absolute;top: 0;width: 205px;}
+   .xiaomiSection_1 #nav .subCate ul li .title .buy{float: right;}
+   .xiaomiSection_1 #nav ul{list-style: none;}
+   .xiaomiSection_1 #nav img{width: 40px;height: 40px;}
+   .xiaomiSection_1 #nav .by{color: #ff6700;border:1px solid #ff6700;padding: 5px 15px 5px 15px;}
+   .xiaomiSection_1 #nav .by:hover{color: white;background-color: #ff6700;}
+   .xiaomiSection_1 .move ul{list-style: none;}
+   .xiaomiSection_1 .move img{width: 1220px;height: 470px;}
+   .xiaomiSection_1 .move .hd{margin-bottom: 10px;}
+
+
+   .xiaomiSection_2 .container{width: 1220px;margin: 0 auto;overflow: hidden;}
+   .xiaomiSection_2{margin-top: 20px;}
+   .xiaomiSection_2 .left{display: inline;float: left;width: 234px;background-color: #333;}
+   .xiaomiSection_2 .left ul{list-style: none;padding: 0px;overflow: hidden;margin-top: 0px}
+   .xiaomiSection_2 .left ul li{float: left;width: 70px;height: 77px;font-size: 12px;text-align: center;}
+   .xiaomiSection_2 .left ul li a{text-decoration: none;color: rgba(255,255,255,0.7);}
+   .xiaomiSection_2 .left ul li a:hover{text-decoration: none;color: rgb(255,255,255);}
+   .xiaomiSection_2 .right: {display: inline;float: left;}
+   .xiaomiSection_2 .right ul {list-style: none;margin:0px;}
+   .xiaomiSection_2 .right ul li{float: left;margin-left: 12px;}
+   .xiaomiSection_2 .right img{width: 316px;height: 170px;}
+
+
+   .xiaomiSection_3 .container{width: 1220px;margin: 0 auto;overflow: hidden;margin-top: 20px;}
+   .xiaomiSection_3 h2{font-weight: 200;}
+   .xiaomiSection_3 .bd {height: 315px;}
+   .xiaomiSection_3 .bd .picList{list-style: none;padding: 0px;width: 3000px;}
+   .xiaomiSection_3 .bd .picList li{float: left;width: 234px;background-color: #fafafa;text-align: center;margin-left: 12px;}
+   .xiaomiSection_3 .bd .picList li a{text-decoration: none;color: #333;font-size: 14px;}
+   .xiaomiSection_3 .bd .picList li .title .message{color: #b0b0b0;font-size: 12px;}
+   .xiaomiSection_3 .bd .picList li .title .price{color: #ff6700;}
+   .xiaomiSection_3 img{width: 160px;height: 160px;padding-top: 40px;}
+
+   .xiaomiSection_4 {background-color: #f5f5f5;}
+   .xiaomiSection_4 .container{width: 1220px;margin: 0 auto;overflow: hidden;margin-top: 20px;}
+   .xiaomiSection_4 .header{padding-top: 60px;}
+   .xiaomiSection_4 h2{font-weight: 200;}
+   .xiaomiSection_4 .left{display: inline;float: left;}
+   .xiaomiSection_4 .left:hover{transform: translate3d(0,-2px,0);}
+   .xiaomiSection_4 .left img{width: 234px;height: 614px;}
+   .xiaomiSection_4 .right{display: inline;float: left;width: 986px;}
+   .xiaomiSection_4 .right ul{list-style: none;margin: 0;padding: 0px;}
+   .xiaomiSection_4 .right ul li{float: left;background-color: white;width: 234px;height: 260px;text-align: center;margin: 0 0 15px 10px;padding: 0 0 40px 0;}
+   .xiaomiSection_4 .right ul li:hover{box-shadow: 0 15px 30px rgba(0,0,0,0.1);transform: translate3d(0,-2px,0);}
+   .xiaomiSection_4 .right img{width: 160px;height: 160px;}
+   .xiaomiSection_4 .right li a{text-decoration: none;color: #333;font-size: 14px;}
+   .xiaomiSection_4 .right li .title .message{color: #b0b0b0;font-size: 12px;}
+   .xiaomiSection_4 .right li .title .price{color: #ff6700;}
+
+
+   .xiaomiSection_5 {background-color: #f5f5f5;}
+   .xiaomiSection_5 .container{width: 1220px;margin: 0 auto;overflow: hidden;}
+   .xiaomiSection_5 .header{padding-top: 10px;}
+   .xiaomiSection_5 h2{font-weight: 200;}
+   .xiaomiSection_5 .left{display: inline;float: left;}
+   .xiaomiSection_5 .left li:hover{transform: translate3d(0,-2px,0);}
+   .xiaomiSection_5 .left ul{list-style: none;margin: 0;padding: 0;}
+   .xiaomiSection_5 .left img{width: 234px;height: 300px;}
+   .xiaomiSection_5 .right a{color: #333;text-decoration: none;font-size:16px;}
+   .xiaomiSection_5 .right .hd{height: 65px;}
+   .xiaomiSection_5 .right .hd ul{list-style: none;float: right;margin: 0;padding: 0;margin-top: 40px;}
+   .xiaomiSection_5 .right .hd ul li{float: left;padding-left: 40px;}
+   .xiaomiSection_5 .right .hd ul li a:hover{color: #ff6700;border-bottom: 2px solid #ff6700;}
+   .xiaomiSection_5 .right .bd .qiehuan {list-style: none;} 
+   .xiaomiSection_5 .right .bd .qiehuan .item ul{list-style: none;margin: 0;padding: 0;}
+   .xiaomiSection_5 .right .bd .qiehuan .item ul li{float: left;background-color: white;width: 234px;height: 260px;text-align: center;margin: 0 0 15px 10px;padding: 0 0 40px 0;}
+   .xiaomiSection_5 .right .bd .qiehuan .item ul li:hover{box-shadow: 0 15px 30px rgba(0,0,0,0.1);transform: translate3d(0,-2px,0);}
+   .xiaomiSection_5 .right .bd .qiehuan img{width: 160px;height: 160px;}
+   .xiaomiSection_5 .right .bd .qiehuan li a{text-decoration: none;color: #333;font-size: 14px;}
+   .xiaomiSection_5 .right .bd .qiehuan li .title .message{color: #b0b0b0;font-size: 12px;}
+   .xiaomiSection_5 .right .bd .qiehuan li .title .price{color: #ff6700;}
+
+
+   
+   
+
+   .xiaomiSection_6 {background-color: #f5f5f5;}
+   .xiaomiSection_6 .container{width: 1220px;margin: 0 auto;overflow: hidden;}
+   .xiaomiSection_6 .header{padding-top: 10px;}
+   .xiaomiSection_6 h2{font-weight: 200;}
+   .xiaomiSection_6 .left{display: inline;float: left;}
+   .xiaomiSection_6 .left li:hover{transform: translate3d(0,-2px,0);}
+   .xiaomiSection_6 .left ul{list-style: none;margin: 0;padding: 0;}
+   .xiaomiSection_6 .left img{width: 234px;height: 300px;}
+   .xiaomiSection_6 .right a{color: #333;text-decoration: none;font-size:16px;}
+   .xiaomiSection_6 .right .hd{height: 65px;}
+   .xiaomiSection_6 .right .hd ul{list-style: none;float: right;margin: 0;padding: 0;margin-top: 40px;}
+   .xiaomiSection_6 .right .hd ul li{float: left;padding-left: 40px;}
+   .xiaomiSection_6 .right .hd ul li a:hover{color: #ff6700;border-bottom: 2px solid #ff6700;}
+   .xiaomiSection_6 .right .bd .qiehuan {list-style: none;} 
+   .xiaomiSection_6 .right .bd .qiehuan .item ul{list-style: none;margin: 0;padding: 0;}
+   .xiaomiSection_6 .right .bd .qiehuan .item ul li{float: left;background-color: white;width: 234px;height: 260px;text-align: center;margin: 0 0 15px 10px;padding: 0 0 40px 0;}
+   .xiaomiSection_6 .right .bd .qiehuan .item ul li:hover{box-shadow: 0 15px 30px rgba(0,0,0,0.1);transform: translate3d(0,-2px,0);}
+   .xiaomiSection_6 .right .bd .qiehuan img{width: 160px;height: 160px;}
+   .xiaomiSection_6 .right .bd .qiehuan li a{text-decoration: none;color: #333;font-size: 14px;}
+   .xiaomiSection_6 .right .bd .qiehuan li .title .message{color: #b0b0b0;font-size: 12px;}
+   .xiaomiSection_6 .right .bd .qiehuan li .title .price{color: #ff6700;}
+
+   .xiaomiSection_7 {background-color: #f5f5f5;}
+   .xiaomiSection_7 .container{width: 1220px;margin: 0 auto;overflow: hidden;}
+   .xiaomiSection_7 .header{padding-top: 10px;}
+   .xiaomiSection_7 h2{font-weight: 200;}
+   .xiaomiSection_7 .left{display: inline;float: left;}
+   .xiaomiSection_7 .left li:hover{transform: translate3d(0,-2px,0);}
+   .xiaomiSection_7 .left ul{list-style: none;margin: 0;padding: 0;}
+   .xiaomiSection_7 .left img{width: 234px;height: 300px;}
+   .xiaomiSection_7 .right a{color: #333;text-decoration: none;font-size:16px;}
+   .xiaomiSection_7 .right .hd{height: 65px;}
+   .xiaomiSection_7 .right .hd ul{list-style: none;float: right;margin: 0;padding: 0;margin-top: 40px;}
+   .xiaomiSection_7 .right .hd ul li{float: left;padding-left: 40px;}
+   .xiaomiSection_7 .right .hd ul li a:hover{color: #ff6700;border-bottom: 2px solid #ff6700;}
+   .xiaomiSection_7 .right .bd .qiehuan {list-style: none;} 
+   .xiaomiSection_7 .right .bd .qiehuan .item ul{list-style: none;margin: 0;padding: 0;}
+   .xiaomiSection_7 .right .bd .qiehuan .item ul li{float: left;background-color: white;width: 234px;height: 260px;text-align: center;margin: 0 0 15px 10px;padding: 0 0 40px 0;}
+   .xiaomiSection_7 .right .bd .qiehuan .item ul li:hover{box-shadow: 0 15px 30px rgba(0,0,0,0.1);transform: translate3d(0,-2px,0);}
+   .xiaomiSection_7 .right .bd .qiehuan img{width: 160px;height: 160px;}
+   .xiaomiSection_7 .right .bd .qiehuan li a{text-decoration: none;color: #333;font-size: 14px;}
+   .xiaomiSection_7 .right .bd .qiehuan li .title .message{color: #b0b0b0;font-size: 12px;}
+   .xiaomiSection_7 .right .bd .qiehuan li .title .price{color: #ff6700;}
+
+   .xiaomiSection_8 {background-color: #f5f5f5;}
+   .xiaomiSection_8 .container{width: 1220px;margin: 0 auto;overflow: hidden;}
+   .xiaomiSection_8 .douban .hd .arrow{display: inline;float: right;padding-top: 30px;}
+   .xiaomiSection_8 .douban .bd ul{list-style: none;margin: 0;padding: 0;}
+   .xiaomiSection_8 .douban .bd ul li{float: left;width: 234px;background-color: #fafafa;text-align: center;margin-right: 12px;}
+   .xiaomiSection_8 h2{font-weight: 200;display: inline;float: left;}
+   .xiaomiSection_8 .bd {height: 315px;}
+   .xiaomiSection_8 .douban .bd li a{text-decoration: none;color: #333;font-size: 14px;}
+   .xiaomiSection_8 .douban .bd li .title .message{color: #b0b0b0;font-size: 12px;}
+   .xiaomiSection_8 .douban .bd li .title .price{color: #ff6700;}
+   .xiaomiSection_8 img{width: 140px;height: 140px;}
+
+
+   .xiaomiSection_9 {background-color: #f5f5f5;}
+   .xiaomiSection_9 .container{width: 1220px;margin: 0 auto;overflow: hidden;}
+   .xiaomiSection_9 h2{font-weight: 200;}
+   .xiaomiSection_9 img{width: 296px;height: 220px;}
+   .xiaomiSection_9 ul{list-style: none;margin: 0;padding: 0;}
+   .xiaomiSection_9 ul li{float: left;width: 296px;background-color: #fafafa;text-align: center;margin-right: 12px;}
+   .xiaomiSection_9 ul li:hover{box-shadow: 0 15px 30px rgba(0,0,0,0.1);transform: translate3d(0,-2px,0);}
+   .xiaomiSection_9 a{text-decoration: none;}
+
+
+   .xiaomiSection_10 {background-color: #f5f5f5;}
+   .xiaomiSection_10 .container{width: 1220px;margin: 0 auto;overflow: hidden;height: 520px;}
+   .xiaomiSection_10 h2{font-weight: 200;}
+   .xiaomiSection_10 .book{list-style: none;margin: 0;padding: 0;}
+   .xiaomiSection_10 .book li{width: 296px;height: 374px;float: left;margin-right: 12px;}
+   .xiaomiSection_10 .book .focusBox{background-color: white;}
+   .xiaomiSection_10 .book .focusBox .pic{list-style: none;margin: 0;padding: 0;}
+   .xiaomiSection_10 .book .focusBox .pic li{width: 296px;height: 340px;}
+   .xiaomiSection_10 img{width: 216px;height: 154px;}
+   .xiaomiSection_10 .book .focusBox h2{font-size: 16px;font-weight: 400;text-align: center;color: #ffac13;
+    padding-top: 30px;}
+   .xiaomiSection_10 a{text-decoration: none;color: #333;}
+   .xiaomiSection_10 .focusBox{position: relative;}
+   .xiaomiSection_10 .book .focusBox .pic{text-align: center;}
+   .xiaomiSection_10 .book .focusBox .pic .name{font-size: 20px;font-weight: 400;}
+   .xiaomiSection_10 .book .focusBox .pic .message a{color: #b0b0b0;}
+   .xiaomiSection_10 .book .focusBox .pic .message{font-size: 12px;width: 80%;margin: 0 auto;line-height: 20px;}
+   .xiaomiSection_10 .book .focusBox .pic .price{font-size: 14px;}
+   .xiaomiSection_10 .book .focusBox .pic .btn{border:1px solid #ffac13;padding: 5px 20px 5px 20px;margin:20px 0 20px 0;display: inline-block;}
+   .xiaomiSection_10 .book .focusBox .pic .btn a{color: #ffac13;}
+   .focusBox .hd { list-style:none;margin:0;width:40%;margin-left: 30%;padding: 0; position: absolute; bottom: 10px; text-align: center; font-size:0; z-index:1; }
+   .focusBox .hd li{margin: 0 5px; background: url(img/dot.png) no-repeat 0 -16px; height: 16px; overflow: hidden; width: 16px; cursor: pointer;
+    display:inline-block; *display:inline; zoom:1;  _background: url(img/dot8.png) no-repeat 0 -16px;
+   }
+   .focusBox .hd .on{ background-position:0 0; }
+   .focusBox .prev,
+   .focusBox .next { width: 60px; height: 90px; margin: -60px 0 0; display: none; background: url(img/ad_ctr.png) no-repeat 0 0; position: absolute; top: 50%; z-index: 10; cursor: pointer; text-indent: -9999px; filter:alpha(opacity=20);opacity:0.2;  }
+   .focusBox .prev { left: 0; }
+   .focusBox .next { background-position: 0 -90px; right: 0; }
+   .focusBox .prev:hover,
+   .focusBox .next:hover { filter:alpha(opacity=50) !important;opacity:0.5 !important;  }
+
+
+   .xiaomiSection_11 {background-color: #f5f5f5;padding-bottom: 60px;}
+   .xiaomiSection_11 .container{width: 1220px;margin: 0 auto;overflow: hidden;}
+   .xiaomiSection_11 .header {margin-top: 30px;}
+   .xiaomiSection_11 .header h2{font-weight: 200;display: inline;}
+   .xiaomiSection_11 .header a{color: #333;text-decoration: none;float: right;padding-top: 5px;}
+   .xiaomiSection_11 .header a:hover{color:#ff6700;}
+   .xiaomiSection_11 img{width: 296px;height: 180px;}
+   .xiaomiSection_11 ul{list-style: none;margin: 0;padding: 0;}
+   .xiaomiSection_11 ul li{float: left;width: 296px;background-color: white;text-align: center;margin-right: 12px;}
+   .xiaomiSection_11 ul li:hover{box-shadow: 0 15px 30px rgba(0,0,0,0.1);transform: translate3d(0,-2px,0);}
+   .xiaomiSection_11 .play{position: absolute;margin:-70px 0px 0px -120px;border-radius: 50%;width: 30px;height: 30px;}
+   .xiaomiSection_11 .play:hover{background-color: #ff6700;}
+
+   footer {background-color: white;}
+   footer .container{width: 1220px;margin: 0 auto;overflow: hidden;padding-bottom: 30px;}
+   footer .first ul{list-style: none;}
+   footer .first ul li{float: left;padding: 0 35px 0 0px;width: 13.8%;}
+   footer .first ul li span{color: #e0e0e0;font-size: 16px;line-height: 25px;}
+   footer .first ul li a{text-decoration:none;color: #616161;font-size: 16px;line-height: 25px;}
+   footer .first ul li img{height: 30px;width: 30px;}
+   footer .first ul li div{position: relative;}
+   footer .first ul li p{display: inline;position: absolute;margin-top: 0px;}
+   footer .first ul li p:hover{color:#ff6700;}
+    
+   footer .mess .left{display: inline-block;float: left;}
+   footer .mess .left ul{list-style: none;}
+   footer .mess .left .fa{margin:0;padding: 0;}
+   footer .mess .left .fa li{float: left;margin:0;padding: 0 55px 0px 0px;}
+   footer .mess .left .fa .child{margin:0;padding: 0;}
+   footer .mess .left .fa .child li{float: none;}
+   footer .mess .left .fa .child .l1{font-size: 14px;color: #424242;line-height: 40px;}
+   footer .mess .left .fa .child li{font-size: 12px;color: #757575;line-height: 30px;}
+   footer .mess .left .fa .child li:hover{color: #ff6700}
+   footer .mess .right{display: inline-block;float: left;}
+   footer .mess .right .kefu a{text-decoration: none;color:#ff6700;border: 1px solid #ff6700;font-size: 12px;padding: 5px 10px;}
+   footer .mess .right .kefu a:hover{color:white;background-color: #ff6700;}
+
+
+   .last {background-color: #fafafa;}
+   .last .container{width: 1220px;margin: 0 auto;overflow: hidden;}
+   .last .mid {display: inline-block;float: left;}
+   .last .mid ul{list-style: none;margin: 0px;padding: 0px;display: inline-block;}
+   .last .mid ul li {float: left;}
+   .last .mid a{text-decoration: none;font-size: 12px;color: #757575;padding: 0px 5px 0px 5px;}
+   .last .mid a:hover{color: #ff6700;}
+   .last .mid ul li span{color: #b0b0b0;}
+   .last .mid p{font-size: 12px;color: #b0b0b0;margin:0;padding: 0px 0px 0px 5px;}
+   .last .mid p a{color: #b0b0b0;}
+   .last .right{display: inline-block;float: right;}
+   .last .right ul{list-style: none;margin:0;padding: 0;}
+   .last .right ul li{float: left;}
+   .last .right img{width: auto;height: 28px;}
+
+   .cantsee{position: absolute;background-color: #ff6700;width: 234px;height: 75px;display: none;}
+   .cantsee a .review{font-size: 12px;color: #fff;text-align: center;display: block;margin:10px 15px 0px 15px;}
+   .cantsee a .author{display: block;color:rgba(255,255,255,0.6);font-size: 12px;margin-top: 5px;}
