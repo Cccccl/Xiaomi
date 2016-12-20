@@ -1,0 +1,148 @@
+body {
+    height: 10000px;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.xiaomiTop {
+    background-color: #333;
+}
+
+.xiaomiTop .container {
+    width: 1220px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.xiaomiTop .container .left {
+    display: inline;
+    float: left;
+}
+
+.xiaomiTop .container .right {
+    display: inline;
+    float: right;
+    margin-right: 35px;
+}
+
+.xiaomiTop .container ul {
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.xiaomiTop .container ul li {
+    float: left;
+}
+
+.xiaomiTop .container ul li a {
+    color: #b0b0b0;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 300;
+}
+
+.xiaomiTop .container ul li a:hover {
+    color: white;
+}
+
+.xiaomiTop .container .xiaomiCart {
+    display: inline;
+    float: right;
+}
+
+.xiaomiTop .container .xiaomiCart a {
+    color: #b0b0b0;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 40px;
+    padding: 0 20px 0 20px;
+}
+
+.xiaomiTop .container .xiaomiCart:hover {
+    background-color: white;
+}
+
+.xiaomiTop .container .xiaomiCart a:hover {
+    color: #ff6700;
+}
+
+.xiaomiTop .container .xiaomiCart a i img {
+    width: 10px;
+    height: 10px;
+}
+
+.xiaomiTop .container .xiaomiCart .car-item {
+    position: absolute;
+    width: 316px;
+    height: 70px;
+    z-index: 1996;
+    display: inline;
+    margin: -72px 0px 0px -318px;
+    background-color: white;
+    line-height: 35px;
+    border: 2px solid #b0b0b0;
+    border-top: none;
+    text-align: center;
+}
+
+.xiaomiTop .container .xiaomiCart .car-item p {
+    color: #b0b0b0;
+}
+
+.yincan {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 52px;
+    width: 100%;
+    border:1px solid #e0e0e0;
+    box-shadow: 0px 0px 3px #b0b0b0;
+}
+
+.yincan .container {
+    width: 1220px;
+    margin: 0 auto;
+    height: 30px;
+    padding: 10px 0 10px 0;
+}
+
+.yincan .container .title {
+    display: inline;
+    float: left;
+}
+
+.yincan .container .title h2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #424242;
+    margin: 0;
+}
+
+.yincan .container .nav{
+    display: inline;
+    float: right;
+    line-height: 30px;
+}
+.yincan .container .nav .nav-left{
+    margin-right: 10px;
+}
+.yincan .container .nav .nav-left span{
+    color: #e0e0e0;
+}
+.yincan .container .nav a {
+    color: #333;
+    font-size: 14px;
+    padding: 0px 5px;
+    text-decoration: none;
+}
+.yincan .container .nav .nav-left a:first-child{color:#ff6700;}
+.yincan .container .nav .nav-left a:hover{color:#ff6700;}
+.yincan .container .nav .buy{font-size:12px;padding:7px 30px;color: white;background-color: #ff6700;}
+.yya{position: fixed;left: 0;top: 0;}
+.gizle{top:-52px;}
+.sabit{top:0;z-index: 1995;}
