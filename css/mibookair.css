@@ -146,3 +146,9 @@ body {
 .yya{position: fixed;left: 0;top: 0;}
 .gizle{transition:1s;top:-60px;}
 .sabit{transition:1s;top:0;z-index: 1995;box-shadow: 0px 0px 3px #b0b0b0;background-color: rgba(255,255,255,0.9)}
+
+.bookair_section1 .title{width: 1220px;margin: 0 auto;text-align: center;}
+.bookair_section1 .title h1{font-size: 40px;line-height: 53px;font-weight: 200;color: #424242;letter-spacing: 6px;}
+.bookair_section1 .title .message .version{color: #ff6700;}
+.bookair_section1 .title .message span{color: #ff6700;}
+.bookair_section1 .title .message del{color: #b0b0b0;}
