@@ -1,9 +1,12 @@
-body {
-    height: 10000px;
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
     margin: 0;
     padding: 0;
-    min-width: 1220px;//注意min-width的设置。
-    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+
+body {
+    height: 10000px;
+    min-width: 1220px; //注意min-width的设置。
 }
 
 .xiaomiTop {
@@ -105,7 +108,8 @@ body {
     background-color: #f5f5f5;
     height: 52px;
     width: 100%;
-    border: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 .yincan .container {
@@ -201,6 +205,8 @@ body {
     font-weight: 200;
     color: #424242;
     letter-spacing: 6px;
+    margin-top: 80px;
+    margin-bottom: 20px;
 }
 
 .bookair_section1 .title .message {
@@ -265,6 +271,9 @@ body {
     padding: 0px 150px 0px 150px;
     letter-spacing: 3px;
 }
+.bookair_section2 .message{
+    margin-top: 20px;
+}
 
 .bookair_section2 .message ul {
     list-style: none;
@@ -277,18 +286,22 @@ body {
     width: 400px;
     height: 125px;
     text-align: center;
-    padding:40px 0px 30px 0px;
+    padding: 40px 0px 30px 0px;
 }
-.bookair_section2 .message ul li div{
-    width: 90px;height: 66px;
+
+.bookair_section2 .message ul li div {
+    width: 90px;
+    height: 66px;
     display: inline-block;
 }
-.bookair_section2 .message ul li .Characteristic{
+
+.bookair_section2 .message ul li .Characteristic {
     display: block;
     font-size: 16px;
     line-height: 22px;
     color: #616161;
 }
+
 .bookair_section2 .img1 {
     width: 90px;
     height: 66px;
@@ -339,11 +352,77 @@ body {
 
 .bookair_section3 {
     height: 850px;
+    margin-top: 100px;
 }
-    
-.bookair_section3 .big_img{
+
+.bookair_section3 .big_img {
     height: 850px;
     background-image: url('../img/mibookair/summary-section03.jpg');
     background-repeat: no-repeat;
-    background-position: 50%;
+    background-position: 50% -200px;
+    transition: background-position 1s;
+}
+
+.bookair_section4 .title {
+    width: 1220px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.bookair_section4 .title .char {
+    font-size: 20px;
+    line-height: 54px;
+    letter-spacing: 3px;
+    color: #424242;
+    margin: 0;
+}
+
+.bookair_section4 .title h1 {
+    font-size: 40px;
+    line-height: 54px;
+    letter-spacing: 6px;
+    color: #424242;
+    font-weight: normal;
+}
+
+.bookair_section4 .title p {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 3px;
+    color: #424242;
+    margin-top: 10px;
+}
+
+.bookair_section4 .title ul {
+    list-style: none;
+    width: 605px;
+    height: 104px;
+    margin:0 auto;
+    margin-top: 50px;
+}
+
+.bookair_section4 .title ul li {
+    display: inline-block;
+    width: 300px;
+    height: 104px;
+}
+
+.bookair_section4 .title ul li h1 {
+    font-size: 34px;
+    line-height: 80px;
+    color: #b0b0b0;
+}
+
+.bookair_section4 .title ul li p {
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.bookair_section4 .big_img{
+    margin-top: 130px;
+    height: 376px;
+    background-image: url('../img/mibookair/summary-body.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
 }

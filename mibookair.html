@@ -124,6 +124,28 @@
         </div>
 
         <div class="bookair_section3">
+            <div class="big_img" id="big_img"></div>
+        </div>
+
+        <div class="bookair_section4">
+            <div class="title">
+                <p class="char">轻薄全金属机身</p>
+                <h1>做高性能的轻薄笔记本</h1>
+                <p>笔记本内存硬盘更快，键盘屏幕更大，13.3" 配备独立显卡，再谈轻薄是否异想天开？<br>
+                高度定制的元器件让主板更精密，全贴合技术让屏幕更纤薄，高密度电池技术则让电量不减，<br>
+                电池体积更小。一系列创新让笔记本兼具性能与轻薄，还有漂亮的全金属机身，你可以随<br>
+                时单手拿起它，或放到任何电脑包里。</p>
+                <ul>
+                    <li>
+                        <h1>12.5" 集成显卡</h1>
+                        <p>轻至 1.07kg / 薄至 12.9mm</p>
+                    </li>
+                    <li>
+                        <h1>13.3" 独立显卡</h1>
+                        <p>轻至 1.28kg / 薄至 14.8mm</p>
+                    </li>
+                </ul>
+            </div>
             <div class="big_img"></div>
         </div>
     </div>
@@ -143,6 +165,8 @@
             $(window).scroll(function() {
                 /* Act on the event */
                 var s=$(document).scrollTop();
+                var move=$(document).scrollTop();
+                console.log(s);
 
                 if(s<h1){
                     $('.yincan').removeClass('yya').removeClass('gizle').removeClass('sabit');
@@ -157,7 +181,22 @@
                     }
                     ss = s;
                 }
+
+                if(move>1900){
+                    console.log('????');
+                    $('#big_img').css({
+                        'background-position': '50% 0px'
+                    });
+                }else if(move>1000){
+                    console.log('!!!');
+                    $('#big_img').css({
+                    'background-position': '50% -200px'
+                    });
+                }
+
+
             });
         });
+        
     </script>
 </html>
