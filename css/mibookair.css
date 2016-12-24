@@ -2,11 +2,13 @@ body {
     height: 10000px;
     margin: 0;
     padding: 0;
+    min-width: 1220px;//注意min-width的设置。
     font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
 }
 
 .xiaomiTop {
     background-color: #333;
+    width: 100%;
 }
 
 .xiaomiTop .container {
@@ -184,6 +186,7 @@ body {
 .bookair_section1 {
     position: relative;
     height: 1040px;
+    width: 100%;
 }
 
 .bookair_section1 .title {
@@ -237,7 +240,7 @@ body {
 .bookair_section1 .big_img {
     background-image: url('../img/mibookair/summary-index.jpg');
     background-repeat: no-repeat;
-    background-position: 50%;
+    background-position: center;
 }
 
 .bookair_section1 video {
