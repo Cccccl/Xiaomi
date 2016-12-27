@@ -104,8 +104,156 @@ a{color: #333;text-decoration: none;}
     }
 }
 .xiaomiHeader{
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     .container{
         .container;
+        .HeaderLogo{
+            background-color: #ff6700;
+            display: inline-block;
+            float: left;
+            height: 55px;
+            a{
+                img{
+                    width: 55px;height: 55px;
+                }
+            }
+        }
+        .navBar{
+            display: inline-block;
+            vertical-align: top;
+            padding-left: 50px;
+            height: 60px;
+            .nav{
+                list-style: none;
+                height: 60px;
+                #m8,#m9{
+                    width: 43px;
+                }
+                .all{
+                    width: 96px;
+                }
+                li{
+                    float: left;
+                    width: 86px;
+                    height: 60px;
+                    line-height: 60px;
+                    text-align: center;
+                    p{
+                        a{color: #333;
+                            &:hover{
+                            color: #ff6700;
+                            }
+                        }
+                    }
+                    .sub{
+                        list-style: none;
+                        display: none;
+                        position: absolute;
+                        width: 100%;
+                        left: 0;
+                        top: 140px;
+                        border:1px solid #b0b0b0;
+                        height: 229px;
+                        z-index: 1995;
+                        background-color: white;
+                        box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+                        .subl{
+                            width: 180px;
+                            float: left;
+                            text-align: center;
+                            font-size: 12px;
+                            a{
+                                img{
+                                    width: 160px;
+                                    height: 110px;
+                                    padding-top: 50px;
+                                }
+                                p{
+
+                                }
+                            }
+                            span{
+                                color:#ff6700;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .HeaderSearch{
+            display: inline-block;
+            vertical-align: top;
+            width: 290px;
+            height: 60px;
+            .search-text{
+                width: 212px;
+                height: 46px;
+                border:1px solid #e0e0e0;
+                outline: none;
+                display: inline-block;
+                vertical-align: top;
+                margin-left: 3px;
+            }
+            .search_btn{
+                width: 52px;
+                height: 48px;
+                background-image: url(../img/搜索-搜索.png);
+                background-size: 30px 30px;
+                background-repeat: no-repeat;
+                background-position: center;
+                display: inline-block;
+                border:1px solid #e0e0e0;
+                height: 46px;
+                &:hover{
+                    background-color: #ff6700;
+                }
+
+            }
+            .search-hot-words{
+                position: absolute;
+                margin: -35px 0px 0px 70px;
+                span{
+                   color: #b0b0b0;
+                   font-size: 12px;
+                   background-color: #e0e0e0;
+                   margin-left: 2px;
+                   padding: 2px 3px;
+                   &:hover{
+                    color: white;background-color: #ff6700;
+                   }
+                }
+            }
+            .keyword-list{
+                position: absolute;
+                z-index: 1995;
+                border: 1px solid #ff6700;
+                width: 212px;
+                margin:-4px 0px 0px 3px;
+                background-color: white;
+                display: none;
+                ul{
+                    list-style: none;
+                    li{
+                        a{
+                            color: #333;
+                            font-size: 12px;
+                            .keyword{
+                                line-height: 30px;
+                                padding-left: 10px;
+                            }
+                            .result{
+                                float: right;
+                                padding-right: 20px;
+                                padding-top: 5px;
+                                color: #b0b0b0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 .xiaomi{
