@@ -199,20 +199,26 @@
               </form>
             </div>
             <script type="text/javascript">
-            $('.search-text').hover(function() {
-               $(this).css({
+            $('.search-text').on('click',function(e){
+                $(this).css({
                   'border': '1px solid #ff6700'
                 });
                 $('.keyword-list').css({
                   'display': 'block'
                 });
-            }, function() {
-                $(this).css({
-                  'border':'1px solid #e0e0e0',
+                $(document).on('click',function(){
+                    $('.search-text').css({
+                      'border':'1px solid #e0e0e0',
+                    });
+                    $('.keyword-list').css({
+                      'display': 'none'
+                    });
                 });
-                $('.keyword-list').css({
-                  'display': 'none'
-                });
+                 e.stopPropagation();
+            })
+
+            $(".search-text").on("click", function(e){
+                e.stopPropagation();
             });
             </script>
         </div>
