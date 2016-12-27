@@ -120,7 +120,7 @@ a{color: #333;text-decoration: none;}
         }
     }
 }
-.xiaomiSection_1{
+    .xiaomiSection_1{
     .container{
         padding-top: 50px;
         padding-bottom: 50px;
@@ -686,12 +686,15 @@ a{color: #333;text-decoration: none;}
             }
             ul{
                 list-style: none;
+                padding-left: 32px;
+                padding-top: 50px;
                 li{
                     height: 154px;
                     width: 255px;
                     padding-left: 35px;
                     padding-bottom: 45px;
                     border-left: 1px solid #e0e0e0;
+                    position: relative;
                     .time{
                         float: right;
                         display: inline-block;
@@ -701,6 +704,7 @@ a{color: #333;text-decoration: none;}
                         color: #b0b0b0;
                         line-height: 20px;
                         font-weight: normal;
+                        padding-bottom: 20px;
                     }
                     .message{
                         float: right;
@@ -709,24 +713,285 @@ a{color: #333;text-decoration: none;}
                         height: 22px;
                         font-size: 14px;
                         line-height: 22px;
+                        padding-bottom: 20px;
                     }
                     div{
                         width: 255px;
                         float: right;
                         display: inline-block;
+                        font-size: 12px;
+                        padding-bottom: 20px;
+                        border-bottom: 1px solid #e0e0e0;
                         .username{
-
+                            float: left;
+                            color: #b0b0b0;
                         }
                         .user_mes{
+                            float: right;
                             a{
+                                color: #b0b0b0;
                                 img{
                                     width: 15px;
                                     height: 15px;
                                 }
                             }
+                            .num{
+                                color: #b0b0b0;
+                            }
+                        }
+                    }
+                    .spot{
+                        position: absolute;
+                        width: 11px;
+                        height: 11px;
+                        display: inline-block;
+                        background-color: #2196f3;
+                        top:0;
+                        left: -6px;
+                        padding-bottom: 0px;
+                        border-radius: 50%;
+                    }
+                    .s2{
+                        background-color: #e53935;
+                    }
+                    .s3{
+                        background-color: #83c44e;
+                    }
+                    .s4{
+                        background-color: #ffac13;
+                    }
+                    .s5{
+                        background-color: #83c44e;
+                    }
+                }
+            }
+        }
+        .bottom{
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            cursor: pointer;
+            background-color: #eee;
+            p{  
+                position: relative;
+                font-size: 14px;
+                color: #424242;
+                span{
+                    position: absolute;
+                    top: 5px;
+                    img{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+.xiaomiSection_6{
+    background-color: #f5f5f5;
+    .container{
+        .container;
+        background-color: #fafafa;
+        .title{
+            position: relative;
+            height: 60px;
+            padding-top: 60px;
+            background-color: #f5f5f5;
+            .borderline{
+                border-top: 1px solid #e0e0e0;
+            }
+            h2{
+                position: absolute;
+                display: inline-block;
+                height: 30px;
+                width: 300px;
+                font-size: 30px;
+                line-height: 30px;
+                color: #b0b0b0;
+                background-color: #f5f5f5;
+                font-weight: normal;
+                left:50%;
+                margin-left: -150px;
+                text-align: center;
+                top:45px;
+            }
+        }
+        .top{
+            width: 100%;
+            height: 44px;
+            padding:20px 0 20px 0;
+            text-align: center;
+            background-color: #fafafa;
+            .question{
+                display: inline-block;
+                width: 582px;
+                position: relative;
+                text-align: left;
+                input{
+                    height: 40px;
+                    line-height: 40px;
+                    width: 396px;
+                    outline: none;
+                    border:1px solid #ff6700;
+                    padding-left: 30px;
+                }
+                span{
+                    position: absolute;
+                    top: 0;
+                    display: inline-block;
+                    width: 152px;
+                    height: 40px;
+                    line-height: 40px;
+                    background-color: #ff6700;
+                    color:white;
+                    border:1px solid #ff6700;
+                    text-align: center;
+                    vertical-align: top;
+                }
+            }
+        }
+        .notice{
+            background-color: #fafafa;
+            .tab-hd{
+                font-size: 16px;
+                color: #424242;
+                line-height: 16px;
+                padding-left: 45px;
+                height: 60px;
+                padding-right: 45px;
+                .tab-nav{
+                    list-style: none;
+                    height: 60px;
+                    line-height: 60px;
+                    border-bottom: 1px solid #e0e0e0;
+
+                    li{
+                        display: inline-block;
+                        a:hover{
+                            color: #ff6700;
                         }
                     }
                 }
+            }
+            .tab-bd{
+                height: 472px;
+                .tab-pal{
+                    height: 472px;
+                    ul{
+                        height: 472px;
+                        list-style: none;
+                        li{
+                            width: 556px;
+                            height: 100px;
+                            display: inline-block;
+                            margin-left: 45px;
+                            margin-top: 44px;
+                            .left{
+                                width: 62px;
+                                height: 33px;
+                                display: inline-block;
+                                vertical-align: top;
+                                div{
+                                    width: 30px;
+                                    height: 30px;
+                                    text-align: center;
+                                    line-height: 30px;
+                                    border-radius: 50%;
+                                    &:hover{
+                                        background-color: #ff6700;
+                                    }
+                                    a{
+                                        img{
+                                            width: 15px;
+                                            height: 15px;
+                                        }
+                                    }
+                                }
+                                span{
+                                    text-align: center;
+                                    display: inline-block;
+                                    width: 30px;
+                                    font-size: 12px;
+                                    color: #757575;
+                                }
+                            }
+                            .center{
+                                width: 372px;
+                                height: 100px;
+                                display: inline-block;
+                                vertical-align: top;
+                                a{
+                                    font-size: 18px;
+                                    color: #757575;
+                                    line-height: 18px;
+                                    font-weight: normal;
+                                }
+                                p{
+                                    font-size: 14px;
+                                    line-height: 24px;
+                                    color: #757575;
+                                    margin-top: 10px;
+                                }
+                            }
+                            .right{
+                                width: 110px;
+                                height: 46px;
+                                display: inline-block;
+                                vertical-align: top;
+                                p{
+                                    font-size: 12px;
+                                    color: #b0b0b0;
+                                    margin-bottom: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .bottom{
+            margin-left: 44px;
+            margin-right: 44px;
+            height: 61px;
+            text-align: center;
+            line-height: 60px;
+            border-top:1px solid #e0e0e0;
+            a{
+                font-size: 14px;
+                color: #424242;
+                &:hover{
+                    color: #ff6700;
+                }
+            }
+        }
+    }
+}
+.xiaomiSection_7{
+    background-color: #f5f5f5;
+    .container{
+        .container;
+        .title{
+            position: relative;
+            height: 60px;
+            padding-top: 60px;
+            .borderline{
+                border-top: 1px solid #e0e0e0;
+            }
+            h2{
+                position: absolute;
+                display: inline-block;
+                height: 30px;
+                width: 300px;
+                font-size: 30px;
+                line-height: 30px;
+                color: #b0b0b0;
+                background-color: #f5f5f5;
+                font-weight: normal;
+                left:50%;
+                margin-left: -150px;
+                text-align: center;
+                top:45px;
             }
         }
     }
