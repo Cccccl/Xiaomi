@@ -1664,10 +1664,22 @@
     });
 </script>
 <script type="text/javascript">
+        $('.id1').click(function() {
+            $('html, body').animate({scrollTop:830}, 'slow');
+        });
+        $('.id2').click(function() {
+            $('html, body').animate({scrollTop:6100}, 'slow');
+        });
+        $('.id3').click(function() {
+            $('html, body').animate({scrollTop:6410}, 'slow');
+        });
+        $('.id4').click(function() {
+            $('html, body').animate({scrollTop:9510}, 'slow');
+        });
         $(function(){
             var h1=830;
             var h2=6100;
-            var h3=6500;
+            var h3=6400;
             var h4=9500;
             $(window).scroll(function() {
                 /* Act on the event */
