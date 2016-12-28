@@ -1650,17 +1650,17 @@
 </script>
 <script type="text/javascript">
     $('#all').hover(function() {
-        $('.metu').show();
+        $('.metu').find('.container').show();
     }, function() {
         //setTimeout(function(){
           //  $('.metu').hide()}, 1000);
-        $('.metu').hover(function() {
+        $('.metu').find('.container').hover(function() {
             $(this).show();
         }, function() {
             /* Stuff to do when the mouse leaves the element */
             $(this).hide();
         });
-        $('.metu').hide();
+        $('.metu').find('.container').hide();
     });
 </script>
 <script type="text/javascript">
