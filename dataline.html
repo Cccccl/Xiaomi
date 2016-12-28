@@ -586,20 +586,44 @@
     <div class="xiaomiSection_2">
         <div class="container">
             <div class="goods">
-                
             </div>
             <div class="introduce">
                 <ul>
-                    <li><a href="#">详情描述</a></li>
+                    <li class="li1"><a href="#">详情描述</a></li>
                     <li><a href="#">规格参数</a></li>
                     <li><a href="#">评价晒单<span> (1103)</span></a></li>
                     <li><a href="#">商品提问<span> (38)</span></a></li>
                 </ul>
             </div>
-            <div class="buy"></div>
+            <div class="buy">
+            </div>
         </div>
     </div>
-    <div class="xiaomiSection_3">
+    <div class="Hidetop">
+        <div class="container">
+            <div class="goods">
+                <div class="photo">
+                    <img src="img/dataline/pms_1478070969.5786053!68x68.jpg">
+                </div>
+                <div class="message">
+                    <p class="product">小米二合一数据线30cm</p>
+                    <p class="price">19元</p>
+                </div>
+            </div>
+            <div class="introduce">
+                <ul class="ids">
+                    <li><a href="#1" class="id1">详情描述</a></li>
+                    <li><a href="#2" class="id2">规格参数</a></li>
+                    <li><a href="#3" class="id3">评价晒单<span> (1103)</span></a></li>
+                    <li><a href="#4" class="id4">商品提问<span> (38)</span></a></li>
+                </ul>
+            </div>
+            <div class="buy">
+                <a href="#"><img src="img/dataline/购物车添加.png">加入购物车</a>
+            </div>
+        </div>
+    </div>
+    <div class="xiaomiSection_3" id="1">
         <div class="container">
             <div class="photos">
                 <img src="img/dataline/erheyigai_01.jpg">
@@ -612,7 +636,7 @@
             </div>
         </div>
     </div>
-    <div class="xiaomiSection_4">
+    <div class="xiaomiSection_4" id="2">
         <div class="container">
             <div class="title">
                 <div class="borderline"></div>
@@ -625,7 +649,7 @@
                 <p class="color"> 颜色：白色</p>
                 <p class="number">商品编号：1164400032</p>
             </div>
-            <div class="title">
+            <div class="title" id="3">
                 <div class="borderline"></div>
                 <h2>评价晒单</h2>
             </div>
@@ -636,7 +660,7 @@
             </div>
         </div>
     </div>
-    <div class="xiaomiSection_5">
+    <div class="xiaomiSection_5" >
         <div class="container">
             <div class="left_5">
                 <div class="title">
@@ -1105,7 +1129,7 @@
             </div>
         </div>
     </div>
-    <div class="xiaomiSection_6">
+    <div class="xiaomiSection_6" id="4">
         <div class="container">
             <div class="title">
                 <div class="borderline"></div>
@@ -1630,5 +1654,65 @@
     }, function() {
         $('.metu').hide();
     });
+</script>
+<script type="text/javascript">
+        $(function(){
+            var h1=830;
+            var h2=6100;
+            var h3=6500;
+            var h4=9500;
+            $(window).scroll(function() {
+                /* Act on the event */
+                var s=$(document).scrollTop();
+                var ss=$(document).scrollTop();
+                console.log(s);
+
+                if(s<h1){
+                    $('.Hidetop').css({
+                        "display": 'none'
+                    });
+
+                }else if (s>h1) {
+                   
+                    $('.Hidetop').css({
+                        "display": 'block',
+                        "position":'fixed',
+                        "top":'0',
+                        "background-color":'white',
+                        "box-shadow": '0px 0px 3px #b0b0b0',
+                        "z-index":'1995'
+                    });
+                }
+                if(ss>9500){
+                    $('.ids').find('a').css({
+                        'color': '#757575'
+                    });
+                    $('.id4').css({
+                        'color': '#ff6700'
+                    });
+                }else if(ss>6400){
+                    $('.ids').find('a').css({
+                        'color': '#757575'
+                    });
+                    $('.id3').css({
+                        'color': '#ff6700'
+                    });
+                }else if(ss>6100){
+                    $('.ids').find('a').css({
+                        'color': '#757575'
+                    });
+                    $('.id2').css({
+                        'color': '#ff6700'
+                    });
+                }else if(ss>830){
+                    $('.ids').find('a').css({
+                        'color': '#757575'
+                    });
+                    $('.id1').css({
+                        'color': '#ff6700'
+                    });
+                }
+            });
+        });
 </script>
 </html>
