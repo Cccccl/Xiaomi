@@ -34,6 +34,21 @@
                   <p>购物车中还没有商品，赶紧选购吧！</p>
                 </div>
             </div>
+            <script type="text/javascript">
+                $('.xiaomiCart').hover(function() {
+                    
+                    $('.car-item').animate({top:101}, 'slow');
+                    $('.car-item').css({
+                        'z-index': '1995'
+                    });
+                }, function() {
+                    
+                    $('.car-item').animate({top:-60}, 'slow');
+                    $('.car-item').css({
+                        'z-index': '-1'
+                    });
+                });
+            </script>
             <div class="right">
                 <ul>
                     <li><a href="#">登录</a><span>|</span></li>
@@ -1628,7 +1643,18 @@
     </div>
     <div class="advertisement"><img src="img/slogan2016.png"></div>
 </body>
-
+<script type="text/javascript">
+    $('.reply').click(function(){
+        $(this).find('input').css({
+            'border': '1px solid #ff6700'
+        });
+        $(this).find('a').css({
+            'border': '1px solid #ff6700',
+            'background-color':'#ff6700',
+            'color':'white'
+        });
+    })
+</script>
 <script type="text/javascript">jQuery(".notice").slide({ titCell:".tab-hd li", mainCell:".tab-bd",delayTime:0 });</script>
 <script type="text/javascript">jQuery(".scrollBox").slide({ titCell:".list li", mainCell:".piclist", effect:"left",vis:5,scroll:5,delayTime:800,trigger:"click",easing:"easeOutCirc"});</script>
 <script type="text/javascript">
