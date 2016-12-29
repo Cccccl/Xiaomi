@@ -370,18 +370,21 @@
         <div class="container">
             <div class="HeaderLogo">
                 <a href="#">
-
-                    <img class="lazy" data-original="img/mi-logo.png" class="logo">
-                    <img class="lazy" data-original="img/dataline/mi-home.png" class="home">
+                <div class="LOGO">
+                    <img class="lazy logo" data-original="img/mi-logo.png">
+                    <img class="lazy home" data-original="img/dataline/mi-home.png">
+                </div>
                 </a>
             </div>
             <script type="text/javascript">
                 $('.HeaderLogo').hover(function() {
                     console.log($(this).find('.logo'));
-                    $(this).find('.logo').hide();
+                    $(this).find('.logo').animate({left:'-110px'});
+                    $(this).find('.home').animate({left:'-55px'});
                 }, function() {
                     console.log($(this).find('.home'));
-                    $(this).find('.home').show();
+                    $(this).find('.logo').animate({left:'-55px'});
+                    $(this).find('.home').animate({left:'0px'});
                 });
             </script>
             <div class="HeaderNav navBar">
