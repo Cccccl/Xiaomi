@@ -644,11 +644,11 @@
             <div class="goods">
             </div>
             <div class="introduce">
-                <ul>
-                    <li class="li1"><a href="#">详情描述</a></li>
-                    <li><a href="#">规格参数</a></li>
-                    <li><a href="#">评价晒单<span> (1103)</span></a></li>
-                    <li><a href="#">商品提问<span> (38)</span></a></li>
+                <ul class="ids">
+                    <li class="li1"><a href="javascript:;" class="id1">详情描述</a></li>
+                    <li><a href="javascript:;" class="id2">规格参数</a></li>
+                    <li><a href="javascript:;" class="id3">评价晒单<span> (1103)</span></a></li>
+                    <li><a href="javascript:;" class="id4">商品提问<span> (38)</span></a></li>
                 </ul>
             </div>
             <div class="buy">
@@ -1749,17 +1749,6 @@
     });
 </script>
 <script type="text/javascript">
-    $('.ids').find('li').hover(function() {
-        $(this).find('a').css({
-            'color': '#ff6700'
-             });
-    }, function() {
-        $(this).find('a').css({
-            'color': '#757575'
-            });
-    });
-</script>
-<script type="text/javascript">
         $('.id1').click(function() {
             $('html, body').animate({scrollTop:830}, 'slow');
         });
@@ -1779,14 +1768,15 @@
             
         });
         $(function(){
-            var h1=830;
-            var h2=6100;
-            var h3=6400;
-            var h4=9500;
+            var h1=831;
+            var h2=6059;
+            var h3=6409;
+            var h4=9499;
             $(window).scroll(function() {
                 /* Act on the event */
                 var s=$(document).scrollTop();
                 var ss=$(document).scrollTop();
+                console.log(ss);
                 if(s<h1){
                     $('.Hidetop').css({
                         "display": 'none'
@@ -1803,28 +1793,28 @@
                         "z-index":'1995'
                     });
                 }
-                if(ss>9500){
+                if(ss>h4){
                     $('.ids').find('a').css({
                         'color': '#757575'
                     });
                     $('.id4').css({
                         'color': '#ff6700'
                     });
-                }else if(ss>6400){
+                }else if(ss>h3){
                     $('.ids').find('a').css({
                         'color': '#757575'
                     });
                     $('.id3').css({
                         'color': '#ff6700'
                     });
-                }else if(ss>6100){
+                }else if(ss>h2){
                     $('.ids').find('a').css({
                         'color': '#757575'
                     });
                     $('.id2').css({
                         'color': '#ff6700'
                     });
-                }else if(ss>830){
+                }else if(ss>h1){
                     $('.ids').find('a').css({
                         'color': '#757575'
                     });
@@ -1834,6 +1824,25 @@
                 }
             });
         });
+</script>
+<script type="text/javascript">
+    var color='rgb(255, 103, 0)';
+    var tag=0;
+    $('.ids').find('li').hover(function() {
+        if ($(this).find('a').css('color')==='rgb(255, 103, 0)') {
+            tag=1;
+        }    
+            $(this).find('a').css({
+            'color': 'rgb(255,103,0)'
+             });
+    }, function() {
+        if(tag!=1){
+        $(this).find('a').css({
+            'color': 'rgb(117,117,117)'
+            });
+        }
+        tag=0;
+    });
 </script>
 <script type="text/javascript">
     $("img.lazy").lazyload();
