@@ -39,16 +39,26 @@
             </div>
             <script type="text/javascript">
                 $('.xiaomiCart').hover(function() {
-                    
+                    $(this).find('a').css({
+                        'color': '#ff6700'
+                    });
+                    $(this).find('img').attr({
+                        'src': 'img/hover/购物车.png'
+                    });
                     $('.car-item').animate({top:101}, 'slow');
                     $('.car-item').css({
                         'z-index': '1995'
                     });
-                }, function() {
-                    
+                }, function(){
+                    $(this).find('a').css({
+                        'color': '#fff'
+                    });
                     $('.car-item').animate({top:-60}, 'slow');
                     $('.car-item').css({
                         'z-index': '-1'
+                    });
+                    $(this).find('img').attr({
+                        'src': 'img/购物车.png'
                     });
                 });
             </script>
@@ -360,7 +370,9 @@
         <div class="container">
             <div class="HeaderLogo">
                 <a href="#">
-                    <img class="lazy" data-original="img/mi-logo.png">
+
+                    <img class="lazy" data-original="img/mi-logo.png" class="logo">
+                    <img class="lazy" data-original="img/dataline/mi-home.png" class="home">
                 </a>
             </div>
             <div class="HeaderNav navBar">
@@ -465,6 +477,20 @@
               <form method="get">
                 <input type="text" class="search-text">
                 <p class="search_btn"></p>
+                <script type="text/javascript">
+                    $('.search_btn').hover(function() {
+                        $(this).css({
+                            'background-color': '#ff6700',
+                            'background-image': 'url(img/hover/搜索-搜索.png)'
+                        });
+                    }, function() {
+                        $(this).css({
+                            'background-color': '#fff',
+                            'background-image': 'url(img/搜索-搜索.png)'
+                        });
+                    });
+
+                </script>
                 <div class="search-hot-words">
                   <span >小米MIX</span>
                   <span>人工智能电视</span>
@@ -630,10 +656,10 @@
             </div>
             <div class="introduce">
                 <ul class="ids">
-                    <li><a href="#1" class="id1">详情描述</a></li>
-                    <li><a href="#2" class="id2">规格参数</a></li>
-                    <li><a href="#3" class="id3">评价晒单<span> (1103)</span></a></li>
-                    <li><a href="#4" class="id4">商品提问<span> (38)</span></a></li>
+                    <li><a href="javascript:;" class="id1">详情描述</a></li>
+                    <li><a href="javascript:;" class="id2">规格参数</a></li>
+                    <li><a href="javascript:;" class="id3">评价晒单<span> (1103)</span></a></li>
+                    <li><a href="javascript:;" class="id4">商品提问<span> (38)</span></a></li>
                 </ul>
             </div>
             <div class="buy">
@@ -1351,6 +1377,23 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+        $('.tab-pal').find('.left div').hover(function() {
+            $(this).css({
+                'background-color': '#ff6700',
+            });
+            $(this).find('img').attr({
+                'src': 'img/hover/like_2_shape.png'
+            });
+        }, function() {
+            $(this).css({
+                'background-color': '#fff',
+            });
+            $(this).find('img').attr({
+                'src': 'img/dataline/like_2_shape.png'
+            });
+        });
+    </script>
     <div class="xiaomiSection_7">
         <div class="container">
             <div class="title">
@@ -1694,17 +1737,34 @@
     });
 </script>
 <script type="text/javascript">
+    $('.ids').find('li').hover(function() {
+        $(this).find('a').css({
+            'color': '#ff6700'
+             });
+    }, function() {
+        $(this).find('a').css({
+            'color': '#757575'
+            });
+    });
+</script>
+<script type="text/javascript">
         $('.id1').click(function() {
             $('html, body').animate({scrollTop:830}, 'slow');
         });
         $('.id2').click(function() {
-            $('html, body').animate({scrollTop:6100}, 'slow');
+            $('html, body').animate({scrollTop:6060}, 'slow');
         });
         $('.id3').click(function() {
             $('html, body').animate({scrollTop:6410}, 'slow');
         });
         $('.id4').click(function() {
-            $('html, body').animate({scrollTop:9510}, 'slow');
+            console.log($(document).height());
+            if($(document).height()>12000){
+                $('html, body').animate({scrollTop:11850}, 'slow');
+            }else{
+                $('html, body').animate({scrollTop:9510}, 'slow');
+            }
+            
         });
         $(function(){
             var h1=830;
@@ -1715,8 +1775,6 @@
                 /* Act on the event */
                 var s=$(document).scrollTop();
                 var ss=$(document).scrollTop();
-                console.log(s);
-
                 if(s<h1){
                     $('.Hidetop').css({
                         "display": 'none'
