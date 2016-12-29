@@ -375,6 +375,15 @@
                     <img class="lazy" data-original="img/dataline/mi-home.png" class="home">
                 </a>
             </div>
+            <script type="text/javascript">
+                $('.HeaderLogo').hover(function() {
+                    console.log($(this).find('.logo'));
+                    $(this).find('.logo').hide();
+                }, function() {
+                    console.log($(this).find('.home'));
+                    $(this).find('.home').show();
+                });
+            </script>
             <div class="HeaderNav navBar">
                 <ul class="nav clearfix">
                     <li class="m all" id="all">
