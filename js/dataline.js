@@ -163,7 +163,7 @@ jQuery(".scrollBox").slide({ titCell:".list li", mainCell:".piclist", effect:"le
         });
 
         // if($(".act").attr("href")!=current&&current){
-            
+            if(top>800){
             $('.ids a').each(function(){
                 if($(this).attr('href')==current){
                     $(this).addClass('act')
@@ -171,6 +171,7 @@ jQuery(".scrollBox").slide({ titCell:".list li", mainCell:".piclist", effect:"le
                      $(this).removeClass("act")
                 }
             })
+            }
             // $(".ids").find("[href="+current+"]").addClass("act")
         // }
     })
