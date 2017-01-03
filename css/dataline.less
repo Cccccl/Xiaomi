@@ -12,6 +12,14 @@ a{color: #333;text-decoration: none;}
     width: 1226px;
     margin: 0 auto;
 }
+.posfix{
+    display: block;
+    position:fixed;
+    top:0;
+    background-color:#fff;
+    box-shadow: 0px 0px 3px #b0b0b0;
+    z-index:1995;
+}
 .xiaomiTop{
     background-color: #333;
     width: 100%;
@@ -573,58 +581,9 @@ a{color: #333;text-decoration: none;}
             width: 234px;
             height: 60px;
             display: inline-block;
-        }
-        .introduce{
-            width: 730px;
-            height: 60px;
-            display: inline-block;
-            ul{
-                width: 680px;
-                height: 60px;
-                list-style: none;
-                .li1{
-                    a{
-                        color: #ff6700;
-                    }
-                }
-                li{
-                    float: left; 
-                    width: 169px;
-                    height: 18px;
-                    margin-top: 20px;
-                    text-align: center;
-                    border-right: 1px solid #e0e0e0;
-                    a{
-                        font-size: 18px;    
-                        color: #757575;
-                        span{
-                            color: #b0b0b0;
-                            font-style: normal;
-                        }
-                    }
-                }
-            }
-        }
-        .buy{
-            width: 234px;
-            height: 60px;
-            display: inline-block;
-        }
-    }
-}
-.Hidetop{
-    border-top:1px solid #e0e0e0;
-    width: 100%;
-    height: 60px;
-    position: absolute;
-    display: none;
-    .container{
-        .container;
-        .goods{
-            width: 234px;
-            height: 60px;
-            display: inline-block;
             vertical-align: top;
+            visibility: hidden;
+
             .photo{
                 display: inline-block;
                 vertical-align: top;
@@ -653,23 +612,31 @@ a{color: #333;text-decoration: none;}
             height: 60px;
             display: inline-block;
             ul{
-                width: 680px;
+                width: 730px;
                 height: 60px;
                 list-style: none;
                 li{
                     float: left; 
                     width: 169px;
-                    height: 18px;
+                    height: 20px;
                     margin-top: 20px;
                     text-align: center;
                     border-right: 1px solid #e0e0e0;
+                    line-height: 20px;
                     a{
+                        
                         font-size: 18px;    
                         color: #757575;
                         span{
                             color: #b0b0b0;
                             font-style: normal;
                         }
+                    }
+                    .act{
+                        color: #ff6700 ;
+                    }
+                    .ahover{
+                        color: #ff6700 ;
                     }
                 }
             }
@@ -680,6 +647,7 @@ a{color: #333;text-decoration: none;}
             display: inline-block;
             vertical-align: top;
             margin-top: 10px;
+            visibility: hidden;
             a{
                 float: right;
                 width: 160px;
@@ -716,7 +684,7 @@ a{color: #333;text-decoration: none;}
     background-color: #f5f5f5;
     .container{
         .container;
-        .title{
+        .Title{
             position: relative;
             height: 60px;
             padding-top: 60px;
@@ -805,6 +773,89 @@ a{color: #333;text-decoration: none;}
     background-color: #f5f5f5;
     .container{
         .container;
+        .Title{
+            position: relative;
+            height: 60px;
+            padding-top: 60px;
+            .borderline{
+                border-top: 1px solid #e0e0e0;
+            }
+            h2{
+                position: absolute;
+                display: inline-block;
+                height: 30px;
+                width: 300px;
+                font-size: 30px;
+                line-height: 30px;
+                color: #b0b0b0;
+                background-color: #f5f5f5;
+                font-weight: normal;
+                left:50%;
+                margin-left: -150px;
+                text-align: center;
+                top:45px;
+            }
+        }
+        .message{
+            padding-top: 50px;
+            background-color: #fff;
+            height: 180px;
+            .photo{
+                display: inline-block;
+                width: 240px;
+                height: 180px;
+                margin-left: 40px;
+            }
+            .color{
+                vertical-align: top;
+                display: inline-block;
+                font-size: 14px;
+                line-height: 20px;
+                width: 290px;
+                height: 44px;
+            }
+            .number{
+                vertical-align: top;
+                display: inline-block;
+                font-size: 14px;
+                line-height: 20px;
+                width: 290px;
+                height: 44px;
+                margin-left: 10px;
+            }
+            .eva_number{
+                width: 280px;
+                height: 85px;
+                line-height: 85px;
+                color: #ff6700;
+                font-size: 80px;
+                text-align: center;
+                margin-left: 50px;
+                span{
+                    font-size: 24px;
+                }   
+            }
+            .eva{
+                width: 280px;
+                height: 15px;
+                line-height: 15px;
+                color: #757575;
+                font-size: 14px;
+                margin-top: 5px;
+                text-align: center;
+                margin-left: 50px;
+            }
+            .amount{
+                width: 280px;
+                height: 14px;
+                line-height: 14px;
+                color: #b0b0b0;
+                margin-top:10px;
+                text-align: center;
+                margin-left: 50px;
+            }
+
+        }
         .left_5{
             margin-top: 10px;
             width: 854px;

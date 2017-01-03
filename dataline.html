@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <title>dataline</title>
     <link rel="stylesheet/less" href="css/dataline.less" />
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="bookmark" href="favicon.ico">
+    <link rel="bookmark" href="favicon.ico"> 
     <script src="js/less.js"></script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
@@ -37,31 +38,6 @@
                   <p>购物车中还没有商品，赶紧选购吧！</p>
                 </div>
             </div>
-            <script type="text/javascript">
-                $('.xiaomiCart').hover(function() {
-                    $(this).find('a').css({
-                        'color': '#ff6700'
-                    });
-                    $(this).find('img').attr({
-                        'src': 'img/hover/购物车.png'
-                    });
-                    $('.car-item').animate({top:101}, 'slow');
-                    $('.car-item').css({
-                        'z-index': '1995'
-                    });
-                }, function(){
-                    $(this).find('a').css({
-                        'color': '#fff'
-                    });
-                    $('.car-item').animate({top:-60}, 'slow');
-                    $('.car-item').css({
-                        'z-index': '-1'
-                    });
-                    $(this).find('img').attr({
-                        'src': 'img/购物车.png'
-                    });
-                });
-            </script>
             <div class="right">
                 <ul>
                     <li><a href="#">登录</a><span>|</span></li>
@@ -352,17 +328,7 @@
                     </div>
                 </li>
               </ul>
-              <script type="text/javascript">
-               jQuery("#nav").slide({ 
-                  type:"menu", //效果类型
-                  titCell:".mainCate", // 鼠标触发对象
-                  targetCell:".subCate", // 效果对象，必须被titCell包含
-                  delayTime:0, // 效果时间
-                  triggerTime:0, //鼠标延迟触发时间
-                  defaultPlay:false,//默认执行
-                  returnDefault:true//返回默认
-              });
-              </script> 
+             
             </div>
         </div>
     </div>
@@ -376,17 +342,6 @@
                 </div>
                 </a>
             </div>
-            <script type="text/javascript">
-                $('.HeaderLogo').hover(function() {
-                    console.log($(this).find('.logo'));
-                    $(this).find('.logo').animate({left:'-110px'});
-                    $(this).find('.home').animate({left:'-55px'});
-                }, function() {
-                    console.log($(this).find('.home'));
-                    $(this).find('.logo').animate({left:'-55px'});
-                    $(this).find('.home').animate({left:'0px'});
-                });
-            </script>
             <div class="HeaderNav navBar">
                 <ul class="nav clearfix">
                     <li class="m all" id="all">
@@ -475,16 +430,7 @@
                     </li>
                 </ul>
             </div>
-            <script type="text/javascript">
-                jQuery(".nav").slide({ 
-                        type:"menu", //效果类型
-                        titCell:".m", // 鼠标触发对象
-                        targetCell:".sub", // 效果对象，必须被titCell包含
-                        delayTime:300, // 效果时间
-                        triggerTime:0, //鼠标延迟触发时间
-                        returnDefault:true  //返回默认状态
-                    });
-            </script> 
+            
             <div class="HeaderSearch">
               <form method="get">
                 <input type="text" class="search-text">
@@ -549,29 +495,7 @@
                 </div>
               </form>
             </div>
-            <script type="text/javascript">
-            $('.search-text').on('click',function(e){
-                $(this).css({
-                  'border': '1px solid #ff6700'
-                });
-                $('.keyword-list').css({
-                  'display': 'block'
-                });
-                $(document).on('click',function(){
-                    $('.search-text').css({
-                      'border':'1px solid #e0e0e0',
-                    });
-                    $('.keyword-list').css({
-                      'display': 'none'
-                    });
-                });
-                 e.stopPropagation();
-            })
-
-            $(".search-text").on("click", function(e){
-                e.stopPropagation();
-            });
-            </script>
+            
         </div>
     </div>
     <div class="xiaomi">
@@ -605,21 +529,7 @@
                     <a href="#"><img class="lazy" data-original="img/dataline/pms_1478070969.5786053!482x482.jpg"></a>
                 </div>
             </div>
-            <script type="text/javascript">
-                $('#smallTobig').find('li').click(function() {
-                    $('#smallTobig').find('li').css({
-                        'border': '1px solid #e0e0e0'
-                    });
-                    $(this).css({
-                        'border': '1px solid #ff6700'
-                    });
-                    var Src=$(this).find('a img').attr('src')
-                    var result=Src.substring(0,Src.length-9)+'482x482.jpg';
-                    $('#Big').find('a img').attr({
-                        'src': result
-                    });
-                });
-            </script>
+            
             <div class="right">
                 <h1>小米二合一数据线30cm</h1>
                 <p class="message">高效充电，快速传输，屏蔽干扰，确保安全，两种接口，支持多设备</p>
@@ -642,22 +552,6 @@
     <div class="xiaomiSection_2">
         <div class="container">
             <div class="goods">
-            </div>
-            <div class="introduce">
-                <ul class="ids">
-                    <li class="li1"><a href="javascript:;" class="id1">详情描述</a></li>
-                    <li><a href="javascript:;" class="id2">规格参数</a></li>
-                    <li><a href="javascript:;" class="id3">评价晒单<span> (1103)</span></a></li>
-                    <li><a href="javascript:;" class="id4">商品提问<span> (38)</span></a></li>
-                </ul>
-            </div>
-            <div class="buy">
-            </div>
-        </div>
-    </div>
-    <div class="Hidetop">
-        <div class="container">
-            <div class="goods">
                 <div class="photo">
                     <img class="lazy" data-original="img/dataline/pms_1478070969.5786053!68x68.jpg">
                 </div>
@@ -668,10 +562,11 @@
             </div>
             <div class="introduce">
                 <ul class="ids">
-                    <li><a href="javascript:;" class="id1">详情描述</a></li>
-                    <li><a href="javascript:;" class="id2">规格参数</a></li>
-                    <li><a href="javascript:;" class="id3">评价晒单<span> (1103)</span></a></li>
-                    <li><a href="javascript:;" class="id4">商品提问<span> (38)</span></a></li>
+                    <li><a href="#item1" class="act" >详情描述</a></li>
+                    <span</span>
+                    <li><a href="#item2" class="">规格参数</a></li>
+                    <li><a href="#item3" class="">评价晒单<span> (1103)</span></a></li>
+                    <li><a href="#item4" class="">商品提问<span> (38)</span></a></li>
                 </ul>
             </div>
             <div class="buy">
@@ -679,7 +574,7 @@
             </div>
         </div>
     </div>
-    <div class="xiaomiSection_3" id="1">
+    <div class="xiaomiSection_3 main_body" id="item1">
         <div class="container">
             <div class="photos">
                 <img class="lazy" data-original="img/dataline/erheyigai_01.jpg">
@@ -692,9 +587,9 @@
             </div>
         </div>
     </div>
-    <div class="xiaomiSection_4" id="2">
+    <div class="xiaomiSection_4 main_body" id="item2">
         <div class="container">
-            <div class="title">
+            <div class="Title">
                 <div class="borderline"></div>
                 <h2>规格参数</h2>
             </div>
@@ -705,7 +600,11 @@
                 <p class="color"> 颜色：白色</p>
                 <p class="number">商品编号：1164400032</p>
             </div>
-            <div class="title" id="3">
+        </div>
+    </div>
+    <div class="xiaomiSection_5 main_body" id="item3">
+        <div class="container">
+            <div class="Title">
                 <div class="borderline"></div>
                 <h2>评价晒单</h2>
             </div>
@@ -714,10 +613,6 @@
                 <p class="eva">购买后满意</p>
                 <p class="amount">1107名用户投票</p>
             </div>
-        </div>
-    </div>
-    <div class="xiaomiSection_5" >
-        <div class="container">
             <div class="left_5">
                 <div class="title">
                     <h3 class="title_left">最有帮助的评价</h3>
@@ -1185,7 +1080,7 @@
             </div>
         </div>
     </div>
-    <div class="xiaomiSection_6" id="4">
+    <div class="xiaomiSection_6 main_body" id="item4">
         <div class="container">
             <div class="title">
                 <div class="borderline"></div>
@@ -1389,23 +1284,6 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript">
-        $('.tab-pal').find('.left div').hover(function() {
-            $(this).css({
-                'background-color': '#ff6700',
-            });
-            $(this).find('img').attr({
-                'src': 'img/hover/like_2_shape.png'
-            });
-        }, function() {
-            $(this).css({
-                'background-color': '#fff',
-            });
-            $(this).find('img').attr({
-                'src': 'img/dataline/like_2_shape.png'
-            });
-        });
-    </script>
     <div class="xiaomiSection_7">
         <div class="container">
             <div class="title">
@@ -1701,150 +1579,5 @@
     </div>
     <div class="advertisement"><img class="lazy" data-original="img/slogan2016.png"></div>
 </body>
-<script type="text/javascript">
-    $('.reply').click(function(){
-        $(this).find('input').css({
-            'border': '1px solid #ff6700'
-        });
-        $(this).find('a').css({
-            'border': '1px solid #ff6700',
-            'background-color':'#ff6700',
-            'color':'white'
-        });
-    })
-</script>
-<script type="text/javascript">jQuery(".notice").slide({ titCell:".tab-hd li", mainCell:".tab-bd",delayTime:0 });</script>
-<script type="text/javascript">jQuery(".scrollBox").slide({ titCell:".list li", mainCell:".piclist", effect:"left",vis:5,scroll:5,delayTime:800,trigger:"click",easing:"easeOutCirc"});</script>
-<script type="text/javascript">
-    $('.bottom').click(function() {
-        $('.left_5').css({
-            'height': '5050px'
-        });
-        $('.hide').css({
-            'display': 'block'
-        });
-        $(this).css({
-            'display': 'none'
-        });
-        $('.more_5').css({
-            'display': 'block'
-        });
-
-    });
-</script>
-<script type="text/javascript">
-    $('#all').hover(function() {
-        $('.metu').find('.container').show();
-    }, function() {
-
-        //setTimeout(function(){
-          //  $('.metu').hide()}, 1000);
-        $('.metu').find('.container').hover(function() {
-            $(this).show();
-        }, function() {
-            /* Stuff to do when the mouse leaves the element */
-            $(this).hide();
-        });
-        $('.metu').find('.container').hide();
-    });
-</script>
-<script type="text/javascript">
-        $('.id1').click(function() {
-            $('html, body').animate({scrollTop:830}, 'slow');
-        });
-        $('.id2').click(function() {
-            $('html, body').animate({scrollTop:6060}, 'slow');
-        });
-        $('.id3').click(function() {
-            $('html, body').animate({scrollTop:6410}, 'slow');
-        });
-        $('.id4').click(function() {
-            console.log($(document).height());
-            if($(document).height()>12000){
-                $('html, body').animate({scrollTop:11850}, 'slow');
-            }else{
-                $('html, body').animate({scrollTop:9510}, 'slow');
-            }
-            
-        });
-        $(function(){
-            var h1=831;
-            var h2=6059;
-            var h3=6409;
-            var h4=9499;
-            $(window).scroll(function() {
-                /* Act on the event */
-                var s=$(document).scrollTop();
-                var ss=$(document).scrollTop();
-                console.log(ss);
-                if(s<h1){
-                    $('.Hidetop').css({
-                        "display": 'none'
-                    });
-
-                }else if (s>h1) {
-                   
-                    $('.Hidetop').css({
-                        "display": 'block',
-                        "position":'fixed',
-                        "top":'0',
-                        "background-color":'white',
-                        "box-shadow": '0px 0px 3px #b0b0b0',
-                        "z-index":'1995'
-                    });
-                }
-                if(ss>h4){
-                    $('.ids').find('a').css({
-                        'color': '#757575'
-                    });
-                    $('.id4').css({
-                        'color': '#ff6700'
-                    });
-                }else if(ss>h3){
-                    $('.ids').find('a').css({
-                        'color': '#757575'
-                    });
-                    $('.id3').css({
-                        'color': '#ff6700'
-                    });
-                }else if(ss>h2){
-                    $('.ids').find('a').css({
-                        'color': '#757575'
-                    });
-                    $('.id2').css({
-                        'color': '#ff6700'
-                    });
-                }else if(ss>h1){
-                    $('.ids').find('a').css({
-                        'color': '#757575'
-                    });
-                    $('.id1').css({
-                        'color': '#ff6700'
-                    });
-                }
-            });
-        });
-</script>
-<script type="text/javascript">
-    var color='rgb(255, 103, 0)';
-    var tag=0;
-    $('.ids').find('li').hover(function() {
-        if ($(this).find('a').css('color')==='rgb(255, 103, 0)') {
-            tag=1;
-        }    
-            $(this).find('a').css({
-            'color': 'rgb(255,103,0)'
-             });
-    }, function() {
-        if(tag!=1){
-        $(this).find('a').css({
-            'color': 'rgb(117,117,117)'
-            });
-        }
-        tag=0;
-    });
-</script>
-<script type="text/javascript">
-    $("img.lazy").lazyload();
-</script>
+<script type="text/javascript" src="js/dataline.js"></script>
 </html>
