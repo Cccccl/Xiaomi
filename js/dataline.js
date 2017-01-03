@@ -150,11 +150,10 @@ jQuery(".scrollBox").slide({ titCell:".list li", mainCell:".piclist", effect:"le
         var current=""//当前所在楼层的（item）id
         maintop.each(function(){
             var mTop=$(this).offset().top//4个楼层分别到document顶部的距离。
-            console.log(top+","+mTop);  
+            
             if(top>mTop-200)//当鼠标移动到相应楼层附近的时候，给current赋当前楼层的id。
             {
                 current="#"+$(this).attr("id")
-                console.log(current);
             }
             else
             {
